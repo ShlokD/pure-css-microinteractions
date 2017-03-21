@@ -14,6 +14,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    font-family: Lato;
 }
 
 /*
@@ -95,19 +96,86 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   .section-heading {
+     font-size: 32px;
+     text-align: center;
+   }
 
+   /* ==========================================================================
+      Button's styles
+      ========================================================================== */
 
+.submit-button {
+  width: 260px;
+  height: 40px;
+  padding: 16px;
+  margin: 8px;
+  background-color: #0b4eba;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+}
 
+.buttons-section {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 500;
+}
 
+.buttons {
+  display: flex;
+  justify-content: center;
+}
 
+.submit-button-size {
+  transition: width 1s, height 1s;
+  -webkit-transition: width 1s, height 1s;
+}
 
+.submit-button-color {
+  transition: background-color 1s;
+  -webkit-transition: background-color 1s;
+}
 
+.submit-button-size:hover {
+  width: 286px;
+  height: 44px;
+}
 
+.submit-button-color:hover {
+  background-color: #11B5E4;
+}
 
+.submit-button-corner {
+  transition: border-radius 1s;
+  -webkit-transition: border-radius 1s;
+}
 
+.submit-button-corner:hover {
+  border-radius: 5px;
+}
 
+.submit-button-icon-img {
+  height: 30px;
+  width: 0;
+  padding-left: 0px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 2px;
+  padding-left: 10px;
+  opacity: 0;
+  transition: opacity 1s. padding-left 1s, width 1s;
+  -webkit-transition: opacity 1s, padding-left 1s, width 1s;
+}
 
-
+.submit-button-icon:hover .submit-button-icon-img {
+  width: 30px;
+  padding-left: 10px;
+  opacity: 0.9;
+}
 
 
 
