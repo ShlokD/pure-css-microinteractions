@@ -117,6 +117,7 @@ textarea {
   line-height: 40px;
   border-radius: 30px;
   cursor: pointer;
+  box-shadow: 4px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 .buttons-section {
@@ -177,6 +178,15 @@ textarea {
   width: 30px;
   padding-left: 10px;
   opacity: 0.9;
+}
+
+.submit-button-shadow {
+  transition: box-shadow 1s;
+  -webkit-transition: box-shadow 1s;
+}
+
+.submit-button-shadow:hover {
+  box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.5);
 }
 
 

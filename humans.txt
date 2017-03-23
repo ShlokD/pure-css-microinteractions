@@ -3,11 +3,12 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Shlok Desai -- Author
 
 # THANKS
 
-    <name>
+    HTML5 Boilerplate team
+    Material-UI Design team
 
 # TECHNOLOGY COLOPHON
 
