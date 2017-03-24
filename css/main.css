@@ -102,7 +102,7 @@ textarea {
    }
 
    /* ==========================================================================
-      Button's styles
+      Button section styles
       ========================================================================== */
 
 .submit-button {
@@ -189,7 +189,46 @@ textarea {
   box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.5);
 }
 
+/* ==========================================================================
+   Image section styles
+   ========================================================================== */
 
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-tile {
+  width: 30%;
+  padding: 20px 16px 32px 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+.image-poster {
+  position: relative;
+  width: 100%;
+}
+
+.primary-info {
+  transition: opacity 1s;
+}
+
+.image-tile-opacity:hover .primary-info {
+  opacity: 1
+}
+
+.primary-info {
+  background-color: black;
+  opacity: 0.6;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 12px;
+  margin-top: -60px;
+  width: 70%;
+}
 
 /* ==========================================================================
    Helper classes
