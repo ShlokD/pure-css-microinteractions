@@ -197,6 +197,8 @@ textarea {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-content: space-around;
+  margin-bottom: 50px;
 }
 
 .image-tile {
@@ -269,6 +271,45 @@ textarea {
 .image-tile-flip:hover {
   transform: rotateY(180deg);
 }
+
+
+.image-tile-opacity-position {
+  position: relative;
+}
+
+.primary-info-opacity-position {
+  background-color: rgba(0,0,0,0);
+  opacity: 1;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  padding: 12px;
+  width: 95.5%;
+  height: 95.5%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  transition: background-color 1s ease;
+}
+
+.primary-info-text-position {
+  margin-top: 180px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  transition: margin-top 1.5s ease, opacity 1.5s ease;
+  opacity: 0;
+}
+
+.image-tile-opacity-position:hover .primary-info-opacity-position {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.image-tile-opacity-position:hover .primary-info-text-position {
+  margin-top: 112px;
+  opacity: 1;
+}
+
 
 /* ==========================================================================
    Helper classes
