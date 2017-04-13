@@ -310,6 +310,37 @@ textarea {
   opacity: 1;
 }
 
+/* ==========================================================================
+   Text input section styles
+   ========================================================================== */
+.text-input-section {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.text-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-input {
+  width: 680px;
+  height: 40px;
+  border: 0;
+  border-bottom: 2px solid gray;
+  font-size: 20px;
+  outline: 0;
+}
+
+.text-input-color-change {
+  transition: border-bottom 0.5s;
+}
+
+.text-input-color-change:focus {
+  border-bottom: 2px solid aqua;
+}
 
 /* ==========================================================================
    Helper classes
